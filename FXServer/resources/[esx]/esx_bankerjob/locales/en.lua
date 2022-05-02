@@ -1,0 +1,18 @@
+Locales['en'] = {
+  ['actions']                           = 'Действия',
+  ['amount']                            = 'Сума',
+  ['balance']                           = 'Баланс',
+  ['bank']                              = 'Банка',
+  ['bill_amount']                       = 'Сметка',
+  ['billing']                           = 'Фактуриране',
+  ['customer']                          = 'Клиент',
+  ['customers']                         = 'Клиенти',
+  ['deposit']                           = 'Депозирай',
+  ['invalid_amount']                    = 'Невалидна сума',
+  ['no_player_nearby']                  = 'Няма играч наблизо',
+  ['press_input_context_to_open_menu']  = 'Натисни ~INPUT_CONTEXT~ за да отвориш банковото меню.',
+  ['withdraw']                          = 'Изтегли',
+  ['boss_actions']                      = 'Шеф действия',
+  ['phone_receive']                     = 'Банка-клиент',
+  ['phone_label']                       = 'Банка',
+}
