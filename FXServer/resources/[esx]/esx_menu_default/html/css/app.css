@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+* {padding: 0; margin: 0; box-sizing: box-shadow; font-family: 'calibri', sans-serif;}
+
+.menu {
+
+	font-size: 15px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Cochin, Georgia, Times, 'calibri', serif;
+	border: 3pt solid;
+	border-color: #00000000;
+	min-width: 300px;
+	animation: BgGradient 35s ease infinite;
+	background: linear-gradient(120deg,#d9f10073,#8e44ad,#00000000,#4400ff62,#cf043762,#f10538d5,#1a38be,#d9f10073,#8e44ad,#00000000,#4400ff62,#cf043762,#05f14ce7,#1a38be);
+	background-size: 900% 900%;
+	box-shadow: 0px 0px 45px 0px #000;
+    border-radius: 12px 12px 12px 12px;        
+	color: #fff;
+	position: absolute;
+
+}
+
+/* This option adjusts the menu position to your liking */
+
+.menu.align-left 
+{
+	right: 60;
+	bottom: 40;
+}
+
+.menu.align-top-left 
+{
+	right: 60;
+	bottom: 40;
+}
+
+.menu.align-top 
+{
+	right: 60;
+	bottom: 40;
+}
+
+.menu.align-top-right {
+	right: 60;
+	bottom: 40;
+}
+
+.menu.align-right 
+{
+	right: 60;
+	bottom: 40;
+}
+
+.menu.align-bottom-right 
+{
+	right: 60;
+	bottom: 40;
+}
+
+.menu.align-bottom 
+{
+	right: 60;
+	bottom: 40;
+}
+
+.menu.align-bottom-left 
+{
+	right: 60;
+	bottom: 40;
+  
+}
+
+.menu.align-center 
+{
+	right: 60;
+	bottom: 40;
+}
+
+.menu .head {
+
+	text-align: center;
+	font-size: 24px;
+	border-radius: 12px 12px 12px 12px; 
+	margin-top: 3px;
+	margin-bottom: 3px;
+	height: 59px;
+	animation: BgGradient 35s ease infinite;
+	background: linear-gradient(120deg,#38f10073,#8e44ad,#00000000,#4400ff62,#cf043762,#f10538d5,#1a38be,#d9f10073,#8e44ad,#00000000,#4400ff62,#cf043762,#05f14ce7,#1a38be);
+	background-size: 900% 900%;
+	line-height: 53px;
+
+}
+
+.menu .menu-items {
+
+	max-height: 550px;
+	overflow-y: auto;
+    border-radius: 1px 1px 10px 10px;   
+}
+
+.menu .menu-items .menu-item {
+
+	height: 40px;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.295);
+	height: 33px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	border-radius: 5px 5px 5px 5px;
+	line-height: 33px;
+	color: #FFF;
+	text-align: center;
+
+}
+
+.menu .menu-items .menu-item.selected {
+
+	background-color: rgba(0, 0, 0, 0.815);
+	background-size: 400% 300%;
+
+}
+
+/* Animations (RGB) */
+
+@keyframes BgGradient {
+    0% {background-position: 0% 50% ;}
+    50% {background-position: 100% 50% ;}
+    100% {background-position: 0% 50% ;}
+}
