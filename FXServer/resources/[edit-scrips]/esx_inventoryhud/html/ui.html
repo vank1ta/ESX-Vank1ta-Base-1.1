@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>INVENTORYHUD BY TRSAK EDITED BY 0PAX</title>
+    <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/ui.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+</head>
+
+<body>
+    <script src="js/config.js"></script>
+    <script src="locales/en.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/inventory.js"></script>
+    <script>
+        $(function () {
+            $("#dialog").dialog({
+                autoOpen: false,
+                clickOutside: true
+            });
+        });
+    </script>
+
+    <div class="ui">
+        <div class="text2">playerinventory</div>
+        <div class="info-div"></div>
+        <div class="inventory">
+            <div id="playerInventory">
+            </div>
+            <div id="controls">
+                    <div class="control2"></div>
+                    <input type="number" class="control" id="count" value="1">
+                    <div class="control3" id="give"></div>
+                    <div class="control4" id="drop"></div>
+                    <img src="https://i.imgur.com/3zBpDIb.png" alt="Hand" id="use" width="100px" height="100px" style="position: absolute; right: 33.7%; top: 185px;"></id>
+                    <div class="text">USE</div>
+                </div>
+            <div id="otherInventory">
+                <div id="noSecondInventoryMessage">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="dialog">
+        <div id="nearPlayers">
+        </div>
+    </div>
+
+</body>
+
+<script>
+    $(document).ready(function () {
+        $("#use").html(invLocale.useItem);
+        $("#give").html(invLocale.giveItem);
+        $("#drop").html(invLocale.dropItem);
+        $("#noSecondInventoryMessage").html(invLocale.secondInventoryNotAvailable);
+    });
+</script>
+
+</html>
